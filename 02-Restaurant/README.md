@@ -10,5 +10,5 @@ together. Please note the following:
 * In `contact-us.html` you will find a `target` link for Twitter and
   Facebook
 * In `contact-us.html` you will also find a `mailto` link
-* A linked image has been created at the header of each pages
+* A linked image has been created at the header of each page
 
