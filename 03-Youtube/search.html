@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Youtube Search</title>
+  </head>
+  <body>
+    <h1>Youtube Search</h1>
+    <p>Enter in your search below:</p>
+    <form action="http://www.youtube.com/results">
+      <p>
+        <label>Search Text</label><br/>
+        <input type="text" name="search_query"/>
+      </p>
+      <p>
+        <label>Duration</label><br/>
+        <input type="radio" name="search_duration" value="short" checked="checked"/> Short
+        <input type="radio" name="search_duration" value="long"/> Long
+      </p>
+      <p>
+        <label>High Definition</label><br/>
+        <input type="checkbox" name="high_definition" value="1"/> Yes
+      </p>
+      <p>
+        <label>Closed Captioned</label><br/>
+        <input type="checkbox" name="closed_captions" value="1"/> Yes
+      </p>
+      <p>
+        <label>Uploaded</label><br/>
+        <select name="uploaded">
+          <option>None</option>
+          <option value="d">Today</option>
+          <option value="w">This week</option>
+          <option value="m">This month</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" value="Search it!"/>
+      </p>
+      </p>
+    </form>
+  </body>
+</html>
