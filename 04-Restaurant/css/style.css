@@ -1,0 +1,53 @@
+body {
+  background: url(../images/circles.png);
+  background-repeat: repeat;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  font-weight: 100;
+  color: rgb(27,36,72);
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2, h3 {
+  text-indent: 20px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  line-height: 28px;
+}
+
+table {
+  text-align: left;
+}
+
+tr {
+  line-height: 30px;
+}
+
+a {
+  color: rgb(140,64,76);
+}
+
+p#tagline {
+  font-style: italic;
+}
+
+a.fancy {
+  text-decoration: none;
+}
+
+a.fancy:hover {
+  background: rgb(140,64,76);
+  color: white;
+}
