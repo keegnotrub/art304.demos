@@ -1,0 +1,12 @@
+p#tagline {
+  border: 1px dashed #ccc;
+  background: black;
+  color: white;
+  text-align: center;
+
+  position: fixed;
+  width: 100px;
+  height: 75px;
+  right: 50px;
+  top: 0px;
+}

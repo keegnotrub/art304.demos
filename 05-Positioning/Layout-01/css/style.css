@@ -1,0 +1,35 @@
+div#first, div#second, div#third, div#forth {
+  border: 1px dashed #ccc;
+}
+
+div#first {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 200px;
+  height: 150px;
+}
+
+div#second {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  width: 200px;
+  height: 150px;
+}
+
+div#third {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  width: 200px;
+  height: 150px;
+}
+
+div#forth {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+  width: 200px;
+  height: 150px;
+}

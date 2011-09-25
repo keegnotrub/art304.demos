@@ -1,0 +1,48 @@
+div#wrapper {
+  border: 1px dashed #ccc;
+  margin: 0px auto;
+  width: 800px;
+}
+
+div#container {
+  border: 1px dashed #ccc;
+  width: 798px;
+  height: 800px;
+  position: relative;
+}
+
+div#a, #b, #c, #f, #d, #e{
+  border: 1px dashed #ccc;
+  width: 200px;
+  height: 200px;
+}
+div#a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+div#b {
+  position: absolute;
+  top: 0px;
+  left: 210px;
+}
+div#c {
+  position: absolute;
+  top: 0px;
+  left: 420px;
+}
+div#d {
+  position: absolute;
+  top: 310px;
+  left: 0px;
+}
+div#e {
+  position: absolute;
+  top: 310px;
+  left: 210px;
+}
+div#f {
+  position: absolute;
+  top: 310px;
+  left: 420px;
+}
