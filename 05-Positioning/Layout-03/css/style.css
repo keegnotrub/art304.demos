@@ -11,7 +11,7 @@ div#container {
   position: relative;
 }
 
-div#a, #b, #c, #f, #d, #e{
+div#a, div#b, div#c, div#f, div#d, div#e{
   border: 1px dashed #ccc;
   width: 200px;
   height: 200px;
