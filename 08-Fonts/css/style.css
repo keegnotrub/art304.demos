@@ -1,6 +1,5 @@
 @font-face {
   font-family: 'junction';
-  src: url(../fonts/junction-webfont.eot);
   src: url(../fonts/junction-webfont.eot?#iefix) format('embedded-opentype'),
        url(../fonts/junction-webfont.woff) format('woff'),
        url(../fonts/junction-webfont.ttf) format('truetype'),
@@ -9,7 +8,6 @@
 
 @font-face {
   font-family: 'league-gothic';
-  src: url(../fonts/league-gothic-webfont.eot);
   src: url(../fonts/league-gothic-webfont.eot?#iefix) format('embedded-opentype'),
        url(../fonts/league-gothic-webfont.woff) format('woff'),
        url(../fonts/league-gothic-webfont.ttf) format('truetype'),
