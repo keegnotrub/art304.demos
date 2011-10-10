@@ -44,6 +44,15 @@ div#content p.last {
   margin-right: 0px;
 }
 
+p span.c1 {
+  float: left;
+  width: 26px;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
 div#footer {
   clear: left;
 }
