@@ -1,0 +1,119 @@
+/*RESET*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a img {
+  border: 0px;
+}
+
+/*CUSTOM FONTS*/
+@font-face {
+	font-family: 'ChunkFiveRegular';
+  src: url('../font/Chunkfive-webfont.eot?') format('eot'),
+       url('../font/Chunkfive-webfont.woff') format('woff'),
+       url('../font/Chunkfive-webfont.ttf') format('truetype'),
+       url('../font/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+}
+
+/*MY STYLES*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: black;
+}
+
+div#wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header {
+	margin-top: 30px;
+}
+
+div#header h1 {
+	float: left;
+	color: white;
+	text-shadow: 3px 3px 0px #666;
+	font-size: 32px;
+  margin-bottom: 5px;
+}
+
+div#header ul {
+  list-style: none;
+	float: right;
+}
+
+div#header ul li {
+  float: left;
+	margin: 0px 0px 0px 5px;
+}
+
+div#header ul li a {
+	font-family: 'ChunkFiveRegular', Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	color: #ccc;
+	color: rgba(255,255,255,0.7);
+	text-decoration: none;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+
+div#header ul li a:hover {
+	color: #fff;
+	background-color: #111;
+	background-color: rgba(255,255,255,0.15);
+}
+
+div#content {
+	clear: both;
+	background-color: white;
+}
+
+div#content ul {
+  list-style: none;
+}
+
+div#content ul li {
+	float: left;
+	margin: 16px;
+}
+
+div#content ul li a img {
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+div#content ul li a:hover img {
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+}
+
+div.clearfix {
+	clear: both;
+}
+
+div#footer {
+	margin-top: 10px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+div#footer-logos {
+	margin-top: 10px;
+}
+
+div#footer-logos a img {
+	opacity: 0.25;
+}
+
+div#footer-logos a:hover img {
+	opacity: 0.6;
+}
