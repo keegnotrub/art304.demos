@@ -1,0 +1,32 @@
+/*RESET*/
+* { 
+  margin: 0;
+  padding: 0;
+}
+a img{ 
+  border: 0px;
+}
+
+/*MY SYTLE*/
+
+body {
+  margin: 30px auto;
+  width: 500px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+   margin: 20px 0px;
+}
+
+div.slideshow {
+  position: relative;
+  width: 500px;
+  height: 332px; 	    
+}
+
+div.slideshow img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
