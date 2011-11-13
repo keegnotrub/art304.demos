@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img a {
+  border: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia;
+  width: 4620px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 34px;
+  position: fixed;
+  bottom: 25px;
+  right: 50px;
+  text-shadow: 3px 3px 0px black;
+  color: white;
+}
+
+div.section {
+  width: 1500px;
+  float: left;
+  height: 100%;
+}
+
+div.section h2 {
+  font-size: 32px;
+  margin: 20px;
+}
+
+div.section p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px;
+  width: 500px;
+}
+
+div.section ul {
+  list-style: none;
+  font-size: 32px;
+  margin: 20px;
+}
+
+div.section ul li {
+  float: left;
+  margin-right: 10px;
+  color: grey;
+}
+
+div.section ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+div#section1, div#section3 {
+  background-color: black;
+  color: white;
+}
+
+div#section1 ul li a, div#section3 ul li a {
+  color: white;
+}

@@ -1,0 +1,22 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+}
+
+a img {
+  border: 0px;
+}
+
+body {
+  margin: 30px auto;
+  width: 400px;
+  font-family: sans-serif;
+}
+
+h1 {
+   margin: 20px 0px;
+}
+
+p {
+  margin: 10px 0px;
+}
