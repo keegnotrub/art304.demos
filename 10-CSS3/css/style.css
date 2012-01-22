@@ -10,11 +10,14 @@ a img {
 
 /*CUSTOM FONTS*/
 @font-face {
-	font-family: 'ChunkFiveRegular';
-  src: url('../font/Chunkfive-webfont.eot?') format('eot'),
-       url('../font/Chunkfive-webfont.woff') format('woff'),
-       url('../font/Chunkfive-webfont.ttf') format('truetype'),
-       url('../font/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+    font-family: 'ChunkFiveRegular';
+    src: url('../font/Chunkfive-webfont.eot');
+    src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Chunkfive-webfont.woff') format('woff'),
+         url('../font/Chunkfive-webfont.ttf') format('truetype'),
+         url('../font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*MY STYLES*/
