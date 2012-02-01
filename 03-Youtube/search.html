@@ -6,31 +6,38 @@
   <body>
     <h1>Youtube Search</h1>
     <p>Enter in your search below:</p>
-    <form action="http://www.youtube.com/results">
+    <form action="https://gdata.youtube.com/feeds/api/videos">
+      <input type="hidden" value="2" name="v">
       <p>
-        <label>Search Text</label><br/>
-        <input type="text" name="search_query">
+        <label>Search Text</label><br>
+        <input type="text" name="q">
       </p>
       <p>
         <label>Duration</label><br>
-        <input type="radio" name="search_duration" value="short" checked="checked"> Short
-        <input type="radio" name="search_duration" value="long"> Long
+        <input type="radio" name="duration" value="short" checked="checked"> Short
+        <input type="radio" name="duration" value="medium"> Medium
+        <input type="radio" name="duration" value="long"> Long
       </p>
       <p>
         <label>High Definition</label><br>
-        <input type="checkbox" name="high_definition" value="1"> Yes
-      </p>
-      <p>
-        <label>Closed Captioned</label><br>
-        <input type="checkbox" name="closed_captions" value="1"> Yes
+        <input type="checkbox" name="hd" value="true"> Yes
       </p>
       <p>
         <label>Uploaded</label><br>
-        <select name="uploaded">
-          <option>None</option>
-          <option value="d">Today</option>
-          <option value="w">This week</option>
-          <option value="m">This month</option>
+        <select name="time">
+          <option value="today">Today</option>
+          <option value="this_week">This week</option>
+          <option value="this_month">This month</option>
+          <option value="all_time">All Time</option>
+        </select>
+      </p>
+      <p>
+        <label>Order By</label><br>
+        <select name="orderby">
+          <option value="relevance">Relevance</option>
+          <option value="published">Published</option>
+          <option value="viewCount">View Count</option>
+          <option value="rating">Rating</option>
         </select>
       </p>
       <p>
