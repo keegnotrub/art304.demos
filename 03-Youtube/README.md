@@ -9,7 +9,7 @@ these rules:
 Action URL
 ----------
 
-<http://www.youtube.com/results>
+<https://gdata.youtube.com/feeds/api/videos>
 
 Codes
 -----
@@ -21,28 +21,28 @@ Codes
     <th>value(s)</th>
   </tr>
   <tr>
-    <td><code>search_query</code></td>
+    <td><code>q</code></td>
     <td>text you are looking for</td>
     <td></td>
   </tr>
   <tr>
-    <td><code>search_duration</code></td>
+    <td><code>duration</code></td>
     <td>how long the video is</td>
-    <td><code>short,long</code></td>
+    <td><code>short,medium,long</code></td>
   </tr>
   <tr>
-    <td><code>high_definition</code></td>
+    <td><code>hd</code></td>
     <td>high definition option</td>
-    <td><code>1</code></td>
+    <td><code>true</code></td>
   </tr>
   <tr>
-    <td><code>closed_captions</code></td>
-    <td>closed caption option</td>
-    <td><code>1</code></td>
+    <td><code>v</code></td>
+    <td>version option</td>
+    <td><code>2</code></td>
   </tr>
   <tr>
-    <td><code>uploaded</code></td>
+    <td><code>time</code></td>
     <td>when video was posted</td>
-    <td><code>d,w,m</code></td>
+    <td><code>today,this_week,this_month,all_time</code></td>
   </tr>
 </table>
