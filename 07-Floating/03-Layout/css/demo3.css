@@ -1,0 +1,53 @@
+/* CSS Document */
+
+div#wrapper {
+	width: 600px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+div#header {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+div#footer {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 0px 10px;
+	background-color: black;
+	color: white;
+	clear: left;
+}
+
+div#content {
+	background-color: red;
+	margin: 5px;
+}
+
+div#side1, div#side2 {
+	float: left;
+	width: 273px;
+	border: 1px solid black;
+	background-color: white;
+	margin: 10px;
+}
+
+div.clearfix {
+	clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
